@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+</head>
+<body>
+    <h1>Upload File</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Choose file to upload:</label>
+        <input type="file" name="file" id="file"><br><br>
+        <label for="details">Details:</label>
+        <input type="text" name="details" id="details"><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
